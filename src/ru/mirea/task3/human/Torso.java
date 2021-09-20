@@ -5,5 +5,5 @@ public class Torso {
     public Torso(float size) {
         this.size = size;
     }
-
+    public float getSize() { return size; }
 }

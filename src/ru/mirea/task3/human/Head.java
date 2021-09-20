@@ -5,5 +5,5 @@ public class Head {
     public Head(float size) {
         this.size = size;
     }
-
+    public float getSize() { return size; }
 }

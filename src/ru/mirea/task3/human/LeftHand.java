@@ -8,4 +8,7 @@ public class LeftHand {
         this.size = size;
     }
 
+    public void brakeOrgan() { this.broken = true; }
+    public boolean isBraked() { return broken; }
+    public float getSize() { return size; }
 }
