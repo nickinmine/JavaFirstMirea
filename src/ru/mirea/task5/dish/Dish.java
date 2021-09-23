@@ -9,11 +9,6 @@ public abstract class Dish {
         material = "";
     }
 
-    public Dish(int size, String material) {
-        this.size = size;
-        this.material = material;
-    }
-
     public void setMaterial(String material) { this.material = material; }
 
     public void setSize(int size) { this.size = size; }
