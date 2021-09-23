@@ -7,8 +7,11 @@ public class Test implements Priceable {
     public static void main(String[] args) {
         Test test = new Test();
         System.out.println(test.getPrice());
-        Car car = new Car(265583.98f);
-        System.out.println(car.getPrice());
+        Scanner scanner = new Scanner(System.in);
+        Car car2 = new Car(scanner.nextFloat());
+        System.out.println(car2.getPrice());
+        Car car1 = new Car(265583.98f);
+        System.out.println(car1.getPrice());
 
     }
 }
