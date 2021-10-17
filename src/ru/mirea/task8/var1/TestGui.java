@@ -1,13 +1,12 @@
-package ru.mirea.task8;
+package ru.mirea.task8.var1;
 import javax.swing.*;
 import java.awt.*;
-import java.io.File;
 
 public class TestGui extends JFrame {
     JPanel jp;
 
     public TestGui() {
-        super("Окно с фигурами и картинкой");
+        super("Окно с фигурами");
         super.setSize(1280, 720);
         super.setDefaultCloseOperation(EXIT_ON_CLOSE);
         jp = new GPanel();

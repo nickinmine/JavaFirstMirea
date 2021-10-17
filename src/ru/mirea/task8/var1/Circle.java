@@ -1,4 +1,4 @@
-package ru.mirea.task8;
+package ru.mirea.task8.var1;
 
 public class Circle extends Shape{
     private String color;

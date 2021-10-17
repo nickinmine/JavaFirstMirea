@@ -1,4 +1,4 @@
-package ru.mirea.task8;
+package ru.mirea.task8.var1;
 
 public abstract class Shape {
     private String color;
