@@ -5,7 +5,6 @@ import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 
 public class TimeTest {
-
     public static String date(Date date) {
         DateFormat dateFormat = new SimpleDateFormat("HH:mm dd.MM.yyyy");
         return dateFormat.format(date);
