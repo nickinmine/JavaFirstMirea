@@ -43,7 +43,7 @@ public class TimeTest {
         Date[] operations = new Date[5];
         operations[0] = new Date(1632061390000L);
         operations[1] = new Date(1633106775000L);
-        operations[2] = new Date(1000);
+        operations[2] = new Date(1634324475000L);
         operations[3] = new Date(1635801627000L);
         operations[4] = new Date();
         System.out.println("\nИнформация о последних операциях по Вашему счёту:");
