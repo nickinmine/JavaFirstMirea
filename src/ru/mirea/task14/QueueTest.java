@@ -5,10 +5,10 @@ import java.util.Queue;
 
 public class QueueTest {
     Queue queue = new PriorityQueue();
-    private void add(int number) { queue.add(number); }
-    private int remove() { return (int)queue.remove(); }
-    private int peek() { return (int)queue.peek(); }
-    private boolean empty() { return queue.isEmpty(); }
+    void add(int number) { queue.add(number); }
+    int remove() { return (int)queue.remove(); }
+    int peek() { return (int)queue.peek(); }
+    boolean empty() { return queue.isEmpty(); }
 
     public static QueueTest addElem(QueueTest queue, int a, int b) {
         QueueTest nextQueue = new QueueTest();
